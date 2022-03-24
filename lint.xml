@@ -2,4 +2,7 @@
 <lint>
       <!-- SetupCompat lib prefixes styleable resources -->
       <issue id="CustomViewStyleable" severity="ignore" />
+
+      <!-- We bumped target SDK but still kept old code around -->
+      <issue id="WrongConstant" severity="ignore" />
 </lint>
