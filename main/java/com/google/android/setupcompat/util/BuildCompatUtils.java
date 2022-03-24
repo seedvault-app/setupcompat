@@ -17,7 +17,7 @@
 package com.google.android.setupcompat.util;
 
 import android.os.Build;
-import androidx.annotation.ChecksSdkIntAtLeast;
+//import androidx.annotation.ChecksSdkIntAtLeast;
 
 /**
  * An util class to check whether the current OS version is higher or equal to sdk version of
@@ -30,7 +30,7 @@ public final class BuildCompatUtils {
    *
    * @return Whether the current OS version is higher or equal to R.
    */
-  @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.R)
+  //@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.R)
   public static boolean isAtLeastR() {
     return Build.VERSION.SDK_INT >= Build.VERSION_CODES.R;
   }
@@ -39,7 +39,7 @@ public final class BuildCompatUtils {
    *
    * @return Whether the current OS version is higher or equal to S.
    */
-  @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.S)
+  //@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.S)
   public static boolean isAtLeastS() {
     return Build.VERSION.SDK_INT >= Build.VERSION_CODES.S;
   }
